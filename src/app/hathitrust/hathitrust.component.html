@@ -1,0 +1,13 @@
+<!--<button (click)="openGoogleScholar()" role='button' class='mat-mdc-tooltip-trigger quick-filter-btn margin-bottom-small margin-top-small mdc-button mdc-button--outlined mat-mdc-outlined-button quick-filter-btn-unselected mat-unthemed mat-mdc-button-base ng-star-inserted' aria-pressed='false' aria-label='Search in Google Scholar' style='margin-left:20px;'><span class='mdc-button__label'><img src='https://onesearch.wesleyan.edu/discovery/custom/01CTW_WU-CTWWU/img/google-logo.png' style='height:15px;width:15px;margin-right:10px;'/>Search in Google Scholar</span></button>
+
+<button (click)="openWCD()" role='button' class='mat-mdc-tooltip-trigger quick-filter-btn margin-bottom-small margin-top-small mdc-button mdc-button--outlined mat-mdc-outlined-button quick-filter-btn-unselected mat-unthemed mat-mdc-button-base ng-star-inserted' aria-pressed='false' aria-label='Search in WorldCat' style='margin-left:20px;'><span class='mdc-button__label'><img src='https://raw.githubusercontent.com/alliance-pcsg/primo-explore-external-search/master/worldcat-logo.png' style='height:15px;width:15px;margin-right:10px;'/>Search in WorldCat</span></button>-->
+<ng-container *ngIf="hathiDisplay">
+<span class="hathitrust-container online availability-container record-availability-and-exhibition-links" *ngIf="hathiUrl">
+	<button hathi-button mat-button class="hathi-button quicklink-button mat-body-medium quicklink-button-small-icon mdc-button mat-mdc-button mat-primary mat-mdc-button-base">
+  <a [href]="hathiUrl" target="_blank" rel="noopener noreferrer" class="hathi-link">
+    <img src="https://www.hathitrust.org/favicon.ico" alt="HathiTrust Icon" class="hathi-icon" />
+    <span>Full Text available at HathiTrust</span>
+  </a>
+</button>
+</span>
+</ng-container>

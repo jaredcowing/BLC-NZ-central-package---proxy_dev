@@ -1,0 +1,25 @@
+:root {
+	--sys-primary: #1a4b78;
+	--sys-inverse-on-surface:#fff2cc;
+	--sys-primary-fixed: #a9c160;
+	--sys-on-primary-fixed-variant: #1a4b78;
+	--sys-surface: #d1d3d4;
+	--sys-background: #ffffff;
+	--sys-surface-variant: #fff2cc;
+	--sys-primary-container: #ffffff;
+	--sys-secondary-container: #ffffff;
+	--sys-secondary: #0090bb;
+	--sys-tertiary: #a9c160;
+	}
+/*.booklist {
+ margin-top: 80px !important;
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ align-content: baseline;
+ justify-content: center;
+ overflow: scroll;}*/
+
+.quick-filters-items-list-container { flex-wrap:wrap !important; }
+/*Push facet counts to right*/
+.filter-checkbox.mat-mdc-checkbox .mdc-label div {width:100%;}

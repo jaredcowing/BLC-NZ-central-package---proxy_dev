@@ -1,0 +1,50 @@
+/*.hathitrust-container {
+  display: inline-block;
+  margin-top: 4px;
+  margin-bottom: 4px;
+
+  .hathi-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: #005a9c;
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-decoration: underline;
+
+    &:hover {
+      color: #003366;
+    }
+
+    .hathi-icon {
+      width: 16px;
+      height: 16px;
+      object-fit: contain;
+    }
+  }
+}*/
+
+.hathi-icon {
+width: 12px;
+height: 12px;
+object-fit: contain;
+margin-right:3px;
+}
+.hathi-link{
+border-color:rgb(63, 96, 138);
+border-radius:5px;
+border-style:solid;
+border-width:1px;
+padding-left:16px;
+padding-right:16px;
+line-height:32px;
+text-align:center;
+margin-left:0px;
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.05); 
+    text-decoration: none;
+  }
+}
+.hathi-button{
+  padding-left:0px;
+}
